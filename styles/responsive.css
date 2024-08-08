@@ -1,0 +1,15 @@
+/* for mobile */
+@media screen and (max-width:576px){
+    .bars{
+        color: white;
+        display: flex;
+        margin-right: 18px;
+    }
+    .nav-list{
+        display: none;
+    }
+    .nav-header{
+        margin-left: 0px;
+    }
+    
+}

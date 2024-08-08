@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter",sans-serif;
+}
+
+@font-face {
+    font-family: 'Miama';
+    src: url(./Miama.ttf);
+}
+.black{
+    background: rgb(0, 0, 0);
+}
+/* header section starts */
+header{
+    height: max-content;
+    width: 100%;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+/* navbar starts here */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 55px 160px;
+    align-items: center;
+}
+.bars{
+    color: white;
+    display: none;
+}
+.nav-header h1{
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-size: 34px;
+}
+.nav-list{
+    box-sizing: border-box;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: .15;
+}
+.nav-list ul{
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    list-style-type: none;
+    color: white;
+    margin: 0 auto;
+    padding: 1px 5px;
+}
+.nav-list ul li{
+    cursor: pointer;
+}
+.button{
+    background-color: rgb(230,83,60);
+    font-size: 16px;
+    border: 5px solid rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+    color: white;
+}
+/* navbar starts here */
+/* header section ends */

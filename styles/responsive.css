@@ -26,10 +26,16 @@
     }
     .hero-stat-350{
         font-size: xx-small;
-        width: 150px;
-        height: 70px;
+        width: 170px;
+        height: 90px;
     }
     .sudo{
         visibility: visible;
+    }
+    .cyh-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
     }
 }

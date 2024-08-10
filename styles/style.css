@@ -108,7 +108,7 @@ header{
     position: relative;
     max-width: 50%;
     width: 400px;
-    height: 550px;
+    height: 520px;
 
 }
 .hero-pic img{
@@ -143,7 +143,7 @@ header{
     margin-top: -150px;
     margin-left: -72px;
     color: white;
-    width: 190px;
+    width: 200px;
     height: 85px;
     line-height: 30px;
     padding-top: 10px;
@@ -169,8 +169,55 @@ header{
     background: rgba(48, 48, 48, 0.54);
     text-align: center;
 }
-
-
-
 /* hero section ends here */
 /* header section ends */
+/* main section starts */
+/* change your habit starts */
+.change-your-havit{
+    width: 100%;
+    margin: 160px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.cyh-header{
+    color: white;
+    width: 80%;
+    text-align:center;
+    margin: 0 auto;
+}
+.cyh-h{
+    color: white;
+    font-size: 45px;
+    margin-top: 22px;
+}
+.cyh-p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+}
+.cyh-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    gap: 32px;
+    margin: 0 auto;
+    text-align: center;
+}
+.cyh-content img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.img-cont{
+    height: 220px;
+    width: 270px;
+    color: white;
+    text-align: center;
+}
+.img-cont p{
+    color: rgba(255, 255, 255, 0.5);
+}
+/* change your habit ends */
+/* main section ends */

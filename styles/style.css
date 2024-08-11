@@ -30,6 +30,7 @@ header{
 .bars{
     color: white;
     display: none;
+    cursor: pointer;
 }
 .nav-header h1{
     color: rgb(230, 83, 60);
@@ -59,6 +60,7 @@ header{
     border: 5px solid rgba(255, 255, 255, 0.1);
     border-radius: 14px;
     color: white;
+    cursor: pointer;
 }
 /* navbar ends here */
 /* hero section starts here */
@@ -103,6 +105,7 @@ header{
     font-size: 16px;
     background: #000;
     color: white;
+    cursor: pointer;
 }
 .hero-pic{
     position: relative;
@@ -128,15 +131,15 @@ header{
     align-items: center;
     gap: 22px;
 }
-.sudo{
+.play-btn{
     height: 0px;
     width: 0px;
     transform: rotate(90.00deg);
     border-bottom: 26px solid white;
-    border-left: 14px solid transparent;
-    border-right: 14px solid transparent;
-    margin-left: 14px;
-    margin-top: 14px;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    margin-left: 12px;
+    margin-top: 12px;
     visibility: hidden;
 }
 .hero-stat-350{
@@ -180,6 +183,7 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 0px;
 
 }
 .cyh-header{
@@ -220,4 +224,43 @@ header{
     color: rgba(255, 255, 255, 0.5);
 }
 /* change your habit ends */
+/* run extra mile starts */
+.run-extra-mile{
+    height: max-content;
+    width: 80%;
+    border-radius: 20px;
+    background: rgb(34, 34, 34);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rem-content{
+    width: 50%;
+    height: max-content;
+    padding: 15px;
+    text-align: center;
+}
+.rem-content h1{
+    color: white;
+    font-size: 48px;
+}
+.rem-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.run-btn{
+    width: 220px;
+    height: 60px;
+}
+.rem-pic{
+    padding: 5%;
+}
+.rem-pic img{
+    height: 340px;
+    width: 340px;
+    border-radius: 18px;
+}
+/* run extra mile ends */
 /* main section ends */

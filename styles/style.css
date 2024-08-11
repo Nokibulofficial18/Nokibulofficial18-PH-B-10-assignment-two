@@ -14,6 +14,14 @@
 .black{
     background: rgb(0, 0, 0);
 }
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+}
+p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+}
 /* header section starts */
 header{
     height: max-content;
@@ -299,6 +307,9 @@ header{
     width: 77.5vw;
     height: auto;
 } */
+.item1{
+    background-color:rgba(6, 255, 210, 0.5);
+}
 .row1 {
     display: grid;
     grid-template-columns: 0.75fr 1.5fr 0.75fr;
@@ -334,4 +345,76 @@ header{
     border-radius: 5px;
 }
 /* trainning and exercise ends here */
+/* BMI section starts here  */
+.bmi-des{
+    height: max-content;
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 180px;
+    margin-bottom: 120px;
+}
+.bmi-section{
+    height: max-content;
+    width: 100%;
+    background: rgb(34, 34, 34);
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.bmi-table{
+    width: 40%;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+.bmi-table h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.bmi-table th{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.bmi-table td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+}
+table,th,td,tr{
+    border: 2px solid rgba(255,255,255,0.1);
+    border-collapse: collapse;
+    height: 62px;
+    width: 420px;
+    text-align: center;
+}
+.bmi-calculator h1{
+    font-size: 30px;
+}
+.bmi-calculator p{
+    font-size: 16px;
+}
+.calc input,select{
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    height: 50px;
+    width: 165px;
+    margin: 12px 0;
+    text-align: left;
+    font-size: 16px;
+}
+option{
+    color: rgba(255, 255, 255, 0.6);
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.6);
+}
+.zero button{
+    width: 224px;
+    height: 54px;
+}
+/* BMI section ends here  */
 /* main section ends */

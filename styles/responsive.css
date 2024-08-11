@@ -54,4 +54,19 @@
     .overlay{
         font-size: 8px;
     }
+    .bmi-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bmi-table{
+        margin: 0 auto;
+        text-align: start;
+        padding: 0;
+        margin-left: 5px;
+    }
+    .bmi-table h1{
+        font-size: 18px;
+    }
 }

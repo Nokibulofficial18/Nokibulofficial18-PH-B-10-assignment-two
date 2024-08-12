@@ -462,4 +462,64 @@ option{
     font-size: 18px;
 }
 /* meet our team ends */
+/* self section starts */
+.self-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.ss-des{
+    height: max-content;
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+.ss-cards{
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ss-card{
+    height: max-content;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.ss-card h1{
+    font-size: 36px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.ss-card li{
+    font-size: 18px;
+    line-height: 25px;
+}
+.ss-card ul{
+    list-style-type: none;
+}
+.ss-card button{
+    height: 50px;
+    width:80px
+}
+/* self section starts */
 /* main section ends */

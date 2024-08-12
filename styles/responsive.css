@@ -79,4 +79,11 @@
     .mot-card img{
         margin-bottom: 80px;
     }
+    .ss-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
 }
